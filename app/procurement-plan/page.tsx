@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { ArrowLeft, Check, ChevronRight, CircleHelp, Sparkles } from "lucide-react";
 import Link from "next/link";
-import { generateRequirements, type Requirement } from "@/lib/eventRequirements";
+import { generateRequirements, type Requirement } from "../../lib/eventRequirements";
 
 const eventTypes = ["Wedding", "Corporate Event", "Birthday", "Social Gathering"];
 

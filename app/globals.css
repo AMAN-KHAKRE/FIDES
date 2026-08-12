@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0b1220;
+  --gold: #c9a45c;
+  --cream: #f7f4ed;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--navy);
+  font-family: Arial, Helvetica, sans-serif;
+}
